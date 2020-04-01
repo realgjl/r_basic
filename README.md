@@ -51,7 +51,7 @@ conda create -n r_env r-essentials
 conda install -c conda-forge jupyterlab
 ```
 
-### Make sure all the components are updated to their latest versions by entering (in your r environment):
+### Again, make sure all the components are updated, in your r environment, to their latest versions, by entering:
 ```terminal
 conda update conda
 ```
@@ -74,7 +74,7 @@ A big "R" icon should be appeared in the main page (http://localhost:8888/lab). 
 
 ### Run in a code editor, like [CodeRunner for macOS](https://coderunnerapp.com) (*not a paid AD)
 1. Open "Preference" tab (command + ","), create a new language named "R" (or not :); 
-2. In the section "Run Command", write:
+2. In the section "Run Command", write your binary folder of the r environment like this:
 ```terminal
 export PATH=/Users/realgjl/miniconda3/envs/r_env/bin:"${PATH}"
 Rscript $filename
@@ -82,3 +82,9 @@ Rscript $filename
 3. Other sections: extentions (R); Syntax mode (R); console type (terminal); debugger (pdb); indentation (default)
 
 
+## P.S.
+1. I use the base environment for Python 3, see this [section](https://github.com/realgjl/summer19/blob/master/README.md#installing-python-3-applications-and-libraries-with-conda) from "summer19" repository;
+2. Each time I want to actiavte r environment in Jupyter Lab, I need to activate r environment firstly by:
+```terminal
+conda activate r_env
+```
