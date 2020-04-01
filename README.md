@@ -39,7 +39,7 @@ conda update --all
 at the command prompt. If there are any updates, you will be prompted to agree their installation.
 
 
-## Create R environment named "r_env" (changeable)
+## Create R environment named "r_env" (you can change the environment name yourself)
 
 ### Install packages (r-essentials) with the name "r_env"
 ```terminal
