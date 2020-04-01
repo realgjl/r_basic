@@ -73,7 +73,7 @@ Jupyter Lab
 A big "R" icon should be appeared in the main page (http://localhost:8888/lab). Click it, you can edit & run your R script now!
 
 ### Run in a code editor, like [CodeRunner for macOS](https://coderunnerapp.com) (*not a paid AD)
-1. Open "Perference" tab (command + ","), create a new language named "R" (or not :); 
+1. Open "Preference" tab (command + ","), create a new language named "R" (or not :); 
 2. In the section "Run Command", write:
 ```terminal
 export PATH=/Users/realgjl/miniconda3/envs/r_env/bin:"${PATH}"
