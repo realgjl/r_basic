@@ -59,6 +59,9 @@ conda update conda
 conda update --all
 ```
 
+### If you found you need to download Java packages
+Check this [post](https://community.rstudio.com/t/java-problem-on-mac-mojave-solved/34223).
+
 ## Exit the terminal app, then 👇
 
 Activate r environment
