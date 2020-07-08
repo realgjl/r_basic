@@ -95,7 +95,7 @@ Jupyter Lab
 ```
 A big "R" icon should be appeared in the main page (http://localhost:8888/lab). Click it, you can edit & run your R script now!
 
-### Run in a code editor, like [CodeRunner for macOS](https://coderunnerapp.com) (*not a paid AD)
+### Run in a code editor, like [CodeRunner for macOS](https://coderunnerapp.com)
 1. Open "Preference" tab (command + ","), create a new language named "R" (or not :); 
 2. In the section "Run Command", write your binary folder of the r environment like this:
 ```terminal
