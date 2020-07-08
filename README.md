@@ -106,6 +106,7 @@ Rscript $filename
 
 ### Add to system's path
 Go to the file "/etc/paths", add the path ("/Users/realgjl/miniconda3/envs/r_env/bin") in it. 
+**Make sure this new miniconda directory is the first one, meaning that it will have precedence.**
 
 
 ## P.S.
