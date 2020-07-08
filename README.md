@@ -104,6 +104,9 @@ Rscript $filename
 ```
 3. Other sections: extentions (R); Syntax mode (R); console type (terminal); debugger (pdb); indentation (default)
 
+### Add to system's path
+Go to the file "/etc/paths", add the path ("/Users/realgjl/miniconda3/envs/r_env/bin") in it. 
+
 
 ## P.S.
 1. I use the base environment for Python 3, see this [section](https://github.com/realgjl/summer19/blob/master/README.md#installing-python-3-applications-and-libraries-with-conda) from "summer19" repository;
