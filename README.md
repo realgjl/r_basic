@@ -68,7 +68,7 @@ conda create -n r_env r-essentials
 
 ### Install [jupyterlab](https://anaconda.org/conda-forge/jupyterlab)
 ```terminal
-conda install -c conda-forge jupyterlab
+conda install -c anaconda jupyterlab
 ```
 
 ### Again, make sure all the components are updated, in your r environment, to their latest versions, by entering:
