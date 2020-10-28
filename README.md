@@ -66,7 +66,7 @@ at the command prompt. If there are any updates, you will be prompted to agree t
 conda create -n r_env r-essentials
 ```
 
-### Install [jupyterlab](https://anaconda.org/conda-forge/jupyterlab)
+### Install [jupyterlab](https://anaconda.org/anaconda/jupyterlab)
 ```terminal
 conda install -c anaconda jupyterlab
 ```
