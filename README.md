@@ -19,15 +19,17 @@ Linux:
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
 
-### Setting the install directory
+### Install libraries
 Follow the prompts on the installer screens. If you are unsure about any setting, accept the defaults. You can change them later. To make the changes take effect, close and then re-open your terminal window. To test your installation, in your terminal window or Anaconda Prompt, run the command ```conda list```. For a successful installation, a list of installed packages appears.
 
 Check if the Python has been installed successfully (in version 3.x), in terminal: ```python -V```
 
-Install necessary Python packages & update conda and all:
+Install necessary Python packages:
 ```terminal
 conda install -c conda-forge scipy jupyterlab pandas matplotlib
 ```
+
+### Update conda and packages
 ```terminal
 conda update conda
 ```
