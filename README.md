@@ -87,7 +87,7 @@ Check the python version again and/or check if "conda" command works.
 3. If you found you need to download Java packages, check this [post](https://community.rstudio.com/t/java-problem-on-mac-mojave-solved/34223).
 
 4. If you would like to run R in a code editor ([CodeRunner for macOS](https://coderunnerapp.com)),
- - Open "Preference" tab (command + ","), create a new language named "R" (or not :); 
+ - Open "Preference" tab (command + ","), create a new language named "R";
  - In the section "Run Command", write your binary folder of the r environment like this:
 ```terminal
 export PATH=/Users/realgjl/miniconda3/envs/r_env/bin:"${PATH}"
