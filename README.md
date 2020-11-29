@@ -50,22 +50,23 @@ The ```new and isolated R environment``` is named ```r_env``` here.
 conda activate r_env
 ```
 
-### Open Jupyter Notebook:
-```terminal
-jupyter notebook
-```
-Exit the current Jupyter environment: press ```control``` ```c``` at terminal
-
 ### Install new libraries for R
 tidyverse corrplot MASS randomforest neuralnet
 ```terminal
 conda install -c conda-forge r-tidyverse r-corrplot r-mass r-randomforest r-neuralnet
 ```
 
-### Update all
+### Update all libraries to the latest
 ```terminal
 conda udpate --all
 ```
+
+# Open Jupyter Notebook:
+```terminal
+conda activate r_env
+jupyter notebook
+```
+Exit the current Jupyter environment: press ```control``` ```c``` at terminal
 
 # P.S.
 1. For Mac users (macOS 10.15 Catalina, macOS 11.0 Big Sur, and later), the default shell of terminal is now "zsh" instead of "bash". 
