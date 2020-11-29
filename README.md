@@ -1,11 +1,11 @@
 # Create R environment in miniconda
-## Download the [Miniconda installer](https://repo.continuum.io/miniconda/)
+### Download the [Miniconda installer](https://repo.continuum.io/miniconda/)
 At a command prompt, enter (Mac):
 ```terminal
 curl -o ./Miniconda3-latest-MacOSX-x86_64.sh -k https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
 ```
 
-## Run the installer
+### Run the installer
 Mac:
 ```terminal
 bash Miniconda3-latest-MacOSX-x86_64.sh
@@ -22,7 +22,7 @@ To test your installation, in your terminal window or Anaconda Prompt, run the c
 
 For a successful installation, a list of installed packages appears.
 
-#### To check if the Python has been installed successfully, in terminal:
+### To check if the Python has been installed successfully, in terminal:
 ```terminal
 python -V
 ```
@@ -46,7 +46,7 @@ Check the python version again and/or check if "conda" command works.
 
 p.s., to show the hidden files in Mac, press: "command" + "shift" + ".".
 
-## Configuring Conda
+### Configuring Conda
 Before first use, the conda package management system needs some initial configuration.
 
 Make sure all the components are updated to their latest versions by entering (in "base" environment):
@@ -59,19 +59,18 @@ conda update --all
 at the command prompt. If there are any updates, you will be prompted to agree their installation.
 
 
-## Create R environment named "r_env" (you can change the environment name yourself)
-
-### Install packages (r-essentials) with the name "r_env"
+### Create R environment named "r_env" (you can change the environment name yourself)
+Install packages (r-essentials) with the name "r_env"
 ```terminal
 conda create -n r_env r-essentials
 ```
 
-### Install [jupyterlab](https://anaconda.org/anaconda/jupyterlab)
+Install [jupyterlab](https://anaconda.org/anaconda/jupyterlab)
 ```terminal
 conda install -c anaconda jupyterlab
 ```
 
-### Again, make sure all the components are updated, in your r environment, to their latest versions, by entering:
+Again, make sure all the components are updated, in your r environment, to their latest versions, by entering:
 ```terminal
 conda update conda
 ```
@@ -79,23 +78,21 @@ conda update conda
 conda update --all
 ```
 
-### If you found you need to download Java packages
-Check this [post](https://community.rstudio.com/t/java-problem-on-mac-mojave-solved/34223).
+If you found you need to download Java packages, check this [post](https://community.rstudio.com/t/java-problem-on-mac-mojave-solved/34223).
 
-## Exit the terminal app, then 👇
-
+Exit the terminal app, then 👇
 Activate r environment
 ```
 conda activate r_env
 ```
 
-### Open in Jupyter Lab
+Open in Jupyter Lab
 ```terminal
 Jupyter Lab
 ```
 A big "R" icon should be appeared in the main page (http://localhost:8888/lab). Click it, you can edit & run your R script now!
 
-### Run in a code editor, like [CodeRunner for macOS](https://coderunnerapp.com)
+Run in a code editor, like [CodeRunner for macOS](https://coderunnerapp.com)
 1. Open "Preference" tab (command + ","), create a new language named "R" (or not :); 
 2. In the section "Run Command", write your binary folder of the r environment like this:
 ```terminal
@@ -104,11 +101,14 @@ Rscript $filename
 ```
 3. Other sections: extentions (R); Syntax mode (R); console type (terminal); debugger (pdb); indentation (default)
 
-### Add to system's path
+Add to system's path
 Go to the file "/etc/paths", add the path ("/Users/realgjl/miniconda3/envs/r_env/bin") in it. 
 **Make sure this new miniconda directory is the first one, meaning that it will have precedence.**
 
-## For existing conda users: create a new and isolated R environment
+
+
+
+# For existing conda users: create a new and isolated R environment
 Open terminal and run:
 ```terminal
 conda create -n r_env r-essentials
@@ -116,7 +116,7 @@ conda create -n r_env r-essentials
 p.s., This command will install the package [r-essentials](https://docs.anaconda.com/anaconda/user-guide/tasks/using-r-language/#:~:text=The%20R%20Essentials%20bundle%20contains,interpreter%20installed%20into%20new%20environments.) when creating new environment.
 The ```new and isolated R environment``` is named ```r_env``` here.
 
-### Open Jupyter Notebook
+## Open Jupyter Notebook
 Open terminal & activate your R environment:
 ```terminal
 conda activate r_env
@@ -127,7 +127,7 @@ jupyter notebook
 ```
 Exit the current Jupyter environment: press ```control``` ```c``` at terminal
 
-### Install new packages for R
+## Install new packages for R
 Open terminal & activate your R environment:
 ```terminal
 conda activate r_env
@@ -145,7 +145,7 @@ Select package, copy and paste the code and run:
 
 
 
-## P.S.
+# P.S.
 1. I use the base environment for Python 3, see this [section](https://github.com/realgjl/summer19/blob/master/README.md#installing-python-3-applications-and-libraries-with-conda) from "summer19" repository;
 2. Each time I want to actiavte r environment in Jupyter Lab, I need to activate r environment firstly by:
 ```terminal
