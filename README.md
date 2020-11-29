@@ -56,10 +56,15 @@ jupyter notebook
 ```
 Exit the current Jupyter environment: press ```control``` ```c``` at terminal
 
-### Install new packages for R
+### Install new libraries for R
 tidyverse corrplot MASS randomforest neuralnet
 ```terminal
 conda install -c conda-forge r-tidyverse r-corrplot r-mass r-randomforest r-neuralnet
+```
+
+### Update all
+```terminal
+conda udpate --all
 ```
 
 # P.S.
