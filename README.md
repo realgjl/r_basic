@@ -68,18 +68,12 @@ conda udpate --all
 ```
 
 # P.S.
-1. I use the base environment for Python 3, see this [section](https://github.com/realgjl/summer19/blob/master/README.md#installing-python-3-applications-and-libraries-with-conda) from "summer19" repository;
-
-2. Each time I want to actiavte r environment in Jupyter Lab, I need to activate r environment firstly by:
-```terminal
-conda activate r_env
-```
-
-3. For Mac users (macOS 10.15 Catalina, macOS 11.0 Big Sur, and later), the default shell of terminal is now "zsh" instead of "bash". According to the offcial doc from [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html) (search "zsh" in the webpage), we need to find the path/direction of miniconda3's folder, for instance, in my case:
+1. For Mac users (macOS 10.15 Catalina, macOS 11.0 Big Sur, and later), the default shell of terminal is now "zsh" instead of "bash". 
+According to the offcial doc from [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html) (search "zsh" in the webpage), we need to find the path/direction of miniconda3's folder, for instance, in my case:
 ```terminal
 /Users/realgjl/miniconda3
 ```
-Then in the Terminal.app:
+Then in the terminal:
 ```terminal
 source /Users/realgjl/miniconda3/bin/activate
 ```
@@ -88,11 +82,11 @@ conda init zsh
 ```
 Check the python version again and/or check if "conda" command works.
 
-4. To show the hidden files in Mac, press: "command" + "shift" + ".".
+2. To show the hidden files in Mac, press: "command" + "shift" + ".".
 
-5. If you found you need to download Java packages, check this [post](https://community.rstudio.com/t/java-problem-on-mac-mojave-solved/34223).
+3. If you found you need to download Java packages, check this [post](https://community.rstudio.com/t/java-problem-on-mac-mojave-solved/34223).
 
-6. Run in a code editor, like [CodeRunner for macOS](https://coderunnerapp.com)
+4. If you would like to run R in a code editor ([CodeRunner for macOS](https://coderunnerapp.com)),
  - Open "Preference" tab (command + ","), create a new language named "R" (or not :); 
  - In the section "Run Command", write your binary folder of the r environment like this:
 ```terminal
@@ -101,5 +95,5 @@ Rscript $filename
 ```
  - Other sections: extentions (R); Syntax mode (R); console type (terminal); debugger (pdb); indentation (default)
 
-7. Add the binary file to system's path: Go to the file "/etc/paths", add the path ("/Users/realgjl/miniconda3/envs/r_env/bin") in it. **Make sure this new miniconda directory is the first one, meaning that it will have precedence.**
+5. Add the binary file to system's path: Go to the file "/etc/paths", add the path ("/Users/realgjl/miniconda3/envs/r_env/bin") in it. **Make sure this new miniconda directory is the first one, meaning that it will have precedence.**
 
