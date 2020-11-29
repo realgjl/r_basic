@@ -29,7 +29,7 @@ Install necessary Python packages:
 conda install -c conda-forge scipy jupyterlab pandas matplotlib
 ```
 
-### Update conda and packages
+### Update conda and libraries
 ```terminal
 conda update conda
 ```
