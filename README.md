@@ -69,7 +69,7 @@ jupyter notebook
 Exit the current Jupyter environment: press ```control``` ```c``` at terminal
 
 # P.S.
-1. For Mac users (macOS 10.15 Catalina, macOS 11.0 Big Sur, and later), the default shell of terminal is now "zsh" instead of "bash". 
+1. For Mac users (macOS 10.15 Catalina, macOS 11.0 Big Sur, and later), the default shell of terminal is now **zsh** instead of bash. 
 According to the offcial doc from [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html) (search "zsh" in the webpage), we need to find the path/direction of miniconda3's folder, for instance, in my case:
 ```terminal
 /Users/realgjl/miniconda3
@@ -83,11 +83,11 @@ conda init zsh
 ```
 Check the python version again and/or check if "conda" command works.
 
-2. To show the hidden files in Mac, press: "command" + "shift" + ".".
+2. To show the **hidden files** in Mac, press: "command" + "shift" + ".".
 
-3. If you found you need to download Java packages, check this [post](https://community.rstudio.com/t/java-problem-on-mac-mojave-solved/34223).
+3. If you found you need to download **Java** packages, check this [post](https://community.rstudio.com/t/java-problem-on-mac-mojave-solved/34223).
 
-4. If you would like to run R in a code editor ([CodeRunner for macOS](https://coderunnerapp.com)),
+4. If you would like to run R in a **code editor** ([CodeRunner for macOS](https://coderunnerapp.com)),
  - Open "Preference" tab (command + ","), create a new language named "R";
  - In the section "Run Command", write your binary folder of the r environment like this:
 ```terminal
@@ -96,5 +96,5 @@ Rscript $filename
 ```
  - Other sections: extentions (R); Syntax mode (R); console type (terminal); debugger (pdb); indentation (default)
 
-5. Add the binary file to system's path: Go to the file "/etc/paths", add the path ("/Users/realgjl/miniconda3/envs/r_env/bin") in it. **Make sure this new miniconda directory is the first one, meaning that it will have precedence.**
+5. Add the binary file to **system path**: Go to the file "/etc/paths", add the path ("/Users/realgjl/miniconda3/envs/r_env/bin") in it. **Make sure this new miniconda directory is the first one, meaning that it will have precedence.**
 
