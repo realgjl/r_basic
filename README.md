@@ -40,9 +40,9 @@ conda update --all
 # For existing conda users: create a new and isolated R environment
 Open terminal and run:
 ```terminal
-conda create -n r_env r-essentials
+conda create -n r_env r-base
 ```
-p.s., This command will install the package [r-essentials](https://docs.anaconda.com/anaconda/user-guide/tasks/using-r-language/#:~:text=The%20R%20Essentials%20bundle%20contains,interpreter%20installed%20into%20new%20environments.) when creating new environment.
+p.s., This command will install the package [r-base](https://docs.anaconda.com/anaconda/user-guide/tasks/using-r-language/#:~:text=The%20R%20Essentials%20bundle%20contains,interpreter%20installed%20into%20new%20environments.) when creating new environment.
 The ```new and isolated R environment``` is named ```r_env``` here.
 
 ### activate your R environment:
