@@ -40,7 +40,7 @@ conda update --all
 # For existing conda users: create a new and isolated R environment
 Open terminal and run:
 ```terminal
-conda create -n r_env r-base
+conda create -n r_env r-essentials r-base
 ```
 p.s., This command will install the package [r-base](https://docs.anaconda.com/anaconda/user-guide/tasks/using-r-language/#:~:text=The%20R%20Essentials%20bundle%20contains,interpreter%20installed%20into%20new%20environments.) when creating new environment.
 The ```new and isolated R environment``` is named ```r_env``` here.
@@ -91,10 +91,10 @@ Check the python version again and/or check if "conda" command works.
  - Open "Preference" tab (command + ","), create a new language named "R";
  - In the section "Run Command", write your binary folder of the r environment like this:
 ```terminal
-export PATH=/Users/realgjl/miniconda3/envs/r_env/bin:"${PATH}"
+export PATH=/Users/realgjl/miniconda3/envs/r_env/bin/R:"${PATH}"
 Rscript $filename
 ```
  - Other sections: extentions (R); Syntax mode (R); console type (terminal); debugger (pdb); indentation (default)
 
-5. Add the binary file to **system path**: Go to the file "/etc/paths", add the path ("/Users/realgjl/miniconda3/envs/r_env/bin") in it. **Make sure this new miniconda directory is the first one, meaning that it will have precedence.**
+5. Add the binary file to **system path**: Go to the file "/etc/paths", add the path ("/Users/realgjl/miniconda3/envs/r_env/bin/R") in it. **Make sure this new miniconda directory is the first one, meaning that it will have precedence.**
 
