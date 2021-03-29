@@ -53,7 +53,7 @@ conda activate r_env
 ### Install new libraries for R
 tidyverse corrplot MASS randomforest neuralnet
 ```terminal
-conda install -c conda-forge r-tidyverse r-corrplot r-mass r-randomforest r-neuralnet
+conda install -c conda-forge jupyterlab r-tidyverse r-corrplot r-mass r-randomforest r-neuralnet
 ```
 
 ### Update all libraries to the latest
