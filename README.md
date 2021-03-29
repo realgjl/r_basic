@@ -58,7 +58,7 @@ conda install -c conda-forge r-tidyverse r-corrplot r-mass r-randomforest r-neur
 
 ### Update all libraries to the latest
 ```terminal
-conda udpate --all
+conda update --all
 ```
 
 # Open Jupyter Notebook:
